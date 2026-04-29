@@ -322,9 +322,7 @@ main {
   width: min(560px, 100%);
   min-height: 310px;
   padding-top: 8px;
-
-  transform: scale(0.5);   /* 调小这里 */
-  transform-origin: top left;
+  overflow: visible;
 }
 
 .visitor-map-frame script {
