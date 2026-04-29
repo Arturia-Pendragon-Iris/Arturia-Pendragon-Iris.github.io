@@ -320,13 +320,13 @@ main {
 
 .visitor-map-frame {
   width: 100%;
-  min-height: 30px;
+  min-height: 40px;
   display: flex;
   align-items: flex-start;
   justify-content: flex-start;
   padding-top: 8px;
   overflow: visible;
-  transform: scale(0.25);
+  transform: scale(0.33);
   transform-origin: top left;
 }
 
