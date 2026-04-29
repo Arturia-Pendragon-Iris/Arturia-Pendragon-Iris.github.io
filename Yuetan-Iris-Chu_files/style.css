@@ -322,15 +322,9 @@ main {
   width: 560px;
   max-width: 100%;
   min-height: 310px;
-  overflow: hidden;
+  overflow-x: auto;
+  overflow-y: hidden;
   background: #ffffff;
-}
-
-.visitor-map-frame iframe,
-.visitor-map-frame img,
-.visitor-map-frame canvas {
-  max-width: 100%;
-  display: block;
 }
 
 .visitor-map-frame script {
