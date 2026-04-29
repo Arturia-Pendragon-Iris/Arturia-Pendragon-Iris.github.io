@@ -319,10 +319,18 @@ main {
 }
 
 .visitor-map-frame {
-  width: min(560px, 100%);
+  width: 560px;
+  max-width: 100%;
   min-height: 310px;
-  padding-top: 8px;
-  overflow: visible;
+  overflow: hidden;
+  background: #ffffff;
+}
+
+.visitor-map-frame iframe,
+.visitor-map-frame img,
+.visitor-map-frame canvas {
+  max-width: 100%;
+  display: block;
 }
 
 .visitor-map-frame script {
