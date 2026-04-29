@@ -315,17 +315,18 @@ main {
 }
 
 .visitor-map {
-  padding-bottom: 48px;
+  padding-bottom: 24px;
 }
 
 .visitor-map-frame {
   width: 100%;
-  min-height: 40px;
-  display: flex;
-  align-items: flex-start;
-  justify-content: flex-start;
+  min-height: 190px;
+  overflow: hidden;
   padding-top: 8px;
-  overflow: visible;
+}
+
+.visitor-map-scale {
+  width: 900px;
   transform: scale(0.33);
   transform-origin: top left;
 }
