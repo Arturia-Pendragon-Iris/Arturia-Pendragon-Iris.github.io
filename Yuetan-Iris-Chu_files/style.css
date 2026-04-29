@@ -319,14 +319,17 @@ main {
 }
 
 .visitor-map-frame {
-  width: min(560px, 100%);
-  min-height: 310px;
+  width: 300%;
+  min-height: 120px;
   display: flex;
   align-items: flex-start;
   justify-content: flex-start;
   padding-top: 8px;
-  overflow: hidden;
+  overflow: visible;
+  transform: scale(0.33);
+  transform-origin: top left;
 }
+
 
 .visitor-map-frame script {
   display: block;
