@@ -320,8 +320,12 @@ main {
 
 .visitor-map-frame {
   width: min(560px, 100%);
-  min-height: 310px;
   padding-top: 8px;
+
+  transform: scale(0.45);
+  transform-origin: top left;
+
+  height: 150px;     /* 控制占位 */
   overflow: visible;
 }
 
