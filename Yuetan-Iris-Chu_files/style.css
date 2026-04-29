@@ -320,7 +320,7 @@ main {
 
 .visitor-map-frame {
   width: 100%;
-  min-height: 190px;
+  min-height: 100px;
   overflow: hidden;
   padding-top: 8px;
 }
