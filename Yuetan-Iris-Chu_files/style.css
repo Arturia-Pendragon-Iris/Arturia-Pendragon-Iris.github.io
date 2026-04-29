@@ -319,17 +319,12 @@ main {
 }
 
 .visitor-map-frame {
-  width: 180px;
-  height: 180px;
-  overflow: hidden;
-  position: relative;
-}
+  width: min(560px, 100%);
+  min-height: 310px;
+  padding-top: 8px;
 
-#visitor-map canvas,
-#visitor-map iframe,
-#visitor-map div {
-  max-width: 180px !important;
-  max-height: 180px !important;
+  transform: scale(0.5);   /* 调小这里 */
+  transform-origin: top left;
 }
 
 .visitor-map-frame script {
