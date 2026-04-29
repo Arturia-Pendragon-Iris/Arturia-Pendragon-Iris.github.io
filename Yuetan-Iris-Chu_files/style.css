@@ -315,7 +315,7 @@ main {
 }
 
 .visitor-map {
-  padding-bottom: 48px;
+  padding-bottom: 12px;
 }
 
 .visitor-map-frame {
@@ -326,7 +326,7 @@ main {
   justify-content: flex-start;
   padding-top: 8px;
   overflow: visible;
-  transform: scale(0.33);
+  transform: scale(0.1);
   transform-origin: top left;
 }
 
